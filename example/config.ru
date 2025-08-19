@@ -14,6 +14,7 @@ require './api/entities'
 
 class Base < Grape::API
   require '../lib/grape-swagger'
+
   format :json
 
   mount Api::Endpoints::Root
