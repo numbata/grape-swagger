@@ -19,6 +19,8 @@ module GrapeSwagger
       @request_param_parsers ||= GrapeSwagger::RequestParamParserRegistry.new
     end
 
+
+
     def model_parsers
       @model_parsers ||= GrapeSwagger::ModelParsers.new
     end
