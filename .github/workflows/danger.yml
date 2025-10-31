@@ -16,5 +16,5 @@ jobs:
         bundler-cache: true
     - name: Run Danger
       run: |
-        bundle exec danger --verbose
+        bundle exec danger pr --verbose
 
