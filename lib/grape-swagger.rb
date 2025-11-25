@@ -15,12 +15,14 @@ require 'grape-swagger/token_owner_resolver'
 
 module GrapeSwagger
   class << self
-    def model_parsers
-      @model_parsers ||= GrapeSwagger::ModelParsers.new
-    end
-
     def request_param_parsers
       @request_param_parsers ||= GrapeSwagger::RequestParamParserRegistry.new
+    end
+
+
+
+    def model_parsers
+      @model_parsers ||= GrapeSwagger::ModelParsers.new
     end
   end
   autoload :Rake, 'grape-swagger/rake/oapi_tasks'
