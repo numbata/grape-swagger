@@ -2,6 +2,7 @@
 
 #### Features
 
+* Add OpenAPI 3.0 and 3.1 output via the `openapi_version` option - [@numbata](https://github.com/numbata).
 * Emit `x-nullable` for parameters documented with `documentation: { nullable: true }` in Swagger 2.0 output - [@numbata](https://github.com/numbata).
 * Accept a hash for the `license:` info option (`name`, `url`) in Swagger 2.0 output - [@numbata](https://github.com/numbata).
 * Add a public `GrapeSwagger.schema_name_generator=` to customize how model names become schema names - [@numbata](https://github.com/numbata).
